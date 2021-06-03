@@ -8,4 +8,5 @@ set /a e=0
 
 timeout /t 1 > nul
 set /a e=%e%+"1"
+echo %e%
 goto count
